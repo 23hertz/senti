@@ -1,0 +1,104 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  Navbar starts*/
+.navbar{
+    background-color: rgb(1, 1, 196);
+    color: #fff !important;
+}
+
+.navbar-brand{
+    font-size: 20px !important;
+}
+
+.navbar-nav{
+    color: #fff;
+    font-weight:bold;
+}
+
+.active{
+   border-radius:20%;
+   background-color:red;
+    color:#fff;
+}
+
+.exp{
+    color: red;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    background-color:red;
+    color:#fff;
+    border-radius: 20%;
+    cursor:pointer;
+    -webkit-transition:background-color 2s ease-out;
+    -moz-transition:background-color 2s ease-out;
+    -o-transition:background-color 2s ease-out;
+    transition:background-color 2s ease-out;
+}
+
+
+/* carousel caption */
+.carousel{
+    height: 80vh;
+    width: 100% !important;
+}
+
+/* .carousel,.item,.active{height: 100% !important;} */
+.carousel-inner{ height: 100vh;}
+.carousel-inner > .item > img{ height: 100%;}
+
+.carousel-caption h5{
+    font-size: 150px;
+    font-weight: 750;
+    color: blue;
+}
+
+.carousel-caption p{
+    font-size:26px;
+    font-weight: 500;
+    color:black;
+}
+
+.carousel-item > .img-responsive{
+    height: 80vh;
+}
+
+/**    ab    **/
+.about{
+    background:blue;
+}
+
+.about h1{
+    font-size: 50px;
+    color: red;
+}
+
+/*  cards */
+
+.card{
+    margin-top:30px;
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+    .nav-brand{
+        text-align:center;
+    }
+    .nav-item{
+        text-align: center;
+        padding-top:5px;
+        width: 100px;
+        margin: 0px auto;
+    }
+  }
+
